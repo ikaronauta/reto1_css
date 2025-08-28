@@ -1,0 +1,97 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body { 
+        background-color: chartreuse;
+    }
+
+    .hijo1 {
+        background-color: rgb(3, 80, 80);
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        border-radius: 10px;
+        color: wheat;
+        font-family: "Verdana";
+        font-weight: bolder;
+        font-size: 25px;
+        border: 2px rgb(33, 14, 68) solid;
+    }
+
+    .padre1 {
+        background-color: blueviolet;
+        height: 190px;
+        width: 190px;
+        padding: 20px;
+        margin: 20px 20px 10px 50px;
+        border-radius: 10px;
+        border: 2px rgb(17, 0, 255) solid;
+    }
+
+    .hijo2 {
+        background-color: blueviolet;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        border-radius: 10px;
+        color: rgb(33, 14, 68);
+        font-family: "Ink Free";
+        font-weight: bolder;
+        font-size: 30px;
+        border: 2px wheat solid;
+    }
+
+    .padre2 {
+        background-color: rgb(3, 80, 80);
+        height: 190px;
+        width: 190px;
+        padding: 20px;
+        margin: 0;
+        border-radius: 10px;
+        margin: 0 auto;
+        border: 2px rgb(255, 102, 0) solid;
+    }
+
+    .hijo3 {
+        background-color: rgb(3, 80, 80);
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        border-radius: 10px;
+        color: wheat;
+        border: 2px rgb(33, 14, 68) solid;
+    }
+
+    .padre3 {
+        background-color: blueviolet;
+        height: 190px;
+        width: 190px;
+        padding: 20px;
+        margin: 10px 50px 20px 20px;
+        border-radius: 10px;
+        float: right;
+        font-family: "Courier";
+        font-weight: bolder;
+        font-size: 25px;
+        border: 2px rgb(17, 0, 255) solid;
+    }
+
+    ul {
+        float: right;
+        background-color: rgb(255, 0, 204);
+        padding: 20px 50px;
+        color: beige;
+        border-radius: 10px;
+        margin: 20px;
+        font-family: "ink free";
+        font-weight: bold;
+        font-size: 25px;
+        text-shadow: 5px 5px 5px rgb(51, 0, 255);
+        border: 3px rgb(42, 89, 165) solid;
+    }
